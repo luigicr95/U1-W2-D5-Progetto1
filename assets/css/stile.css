@@ -1,0 +1,270 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  height: 100%;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  line-height: 1.8;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1;
+}
+h2 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/*PULSANTI*/
+#bottone {
+  background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+  color: white;
+  font-size: 1.9rem;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+/* MAIN */
+#heading {
+  background-image: url(../images/banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 450px;
+  color: white;
+  text-align: left;
+  padding: 30px;
+}
+
+#first-section {
+  margin: 20px;
+  margin-bottom: 50px;
+  padding: 0 auto;
+}
+
+.fa-solid {
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+}
+
+.content {
+}
+
+section {
+  background-color: #0c0633;
+  color: white;
+  padding: 80px 20px;
+}
+
+aside {
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(238, 238, 238);
+  text-align: left;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  height: 50px;
+  margin-bottom: -20px;
+}
+
+/* RESPONSIVE */
+/*MEDIA QUERY TABLET*/
+
+@media screen and (min-width: 900px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  /* MAIN */
+  #heading {
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    text-align: left;
+    padding: 50px;
+  }
+
+  #first-section {
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .title {
+    width: 100%;
+  }
+
+  .content {
+    width: 270px;
+  }
+
+  .three-boxes {
+    display: flex;
+    gap: 20px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    padding: 100px;
+  }
+
+  aside {
+    margin: 50px;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .smile {
+    text-align: left;
+  }
+
+  /*FOOTER*/
+  footer {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  /* MAIN */
+  #heading {
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    text-align: left;
+    padding: 50px;
+  }
+
+  #first-section {
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .title {
+    width: 100%;
+  }
+
+  .content {
+    width: 300px;
+  }
+
+  .three-boxes {
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    padding: 100px;
+  }
+
+  aside {
+    margin: 50px;
+    margin-left: 200px;
+    display: flex;
+
+    gap: 40px;
+  }
+
+  .smile {
+    text-align: left;
+  }
+
+  /*FOOTER*/
+  footer {
+    display: flex;
+  }
+}
